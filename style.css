@@ -2,15 +2,19 @@
 	Property: value;
 }*/
 
+* {
+	text-align: right;
+}
+
 body {
 	background-image: url(backgroundImage.jpg);
 	background-size: cover;
 }
 
-h2 {
-	color: #FF0808;523434;
+h2, p {
+	color: #4C1300;
 	text-align: center;
-	border: 5px solid #523434;
+	border: 5px solid #F6B7A2;
 	cursor: pointer;
 }
 
@@ -25,4 +29,20 @@ p {
 li {
 	list-style: none;
 	display: inline-block;
+}
+
+.webtext {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+	background: rgba(255, 0, 0, 0.2);
 }
