@@ -2,8 +2,16 @@
 	Property: value;
 }*/
 
+body {
+	background-image: url(backgroundImage.jpg);
+	background-size: cover;
+}
+
 h2 {
-	color: red;
+	color: #FF0808;523434;
+	text-align: center;
+	border: 5px solid #523434;
+	cursor: pointer;
 }
 
 p {
@@ -12,4 +20,9 @@ p {
 
 p {
 	color: green;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
 }
