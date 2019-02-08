@@ -17,13 +17,16 @@ function sing(song) {
     console.log(song);
 }
 
-sing("Saa Ree Gaa");
-sing("Despacito");
+// sing("Saa Ree Gaa");
+// sing("Despacito");
 
 
 function multiply(a, b) {
-    return a * b;
-    // return a;
+    if (a > 10 || b > 10) {
+        return "that's too hard!";
+    } else {
+        return a * b;
+    }
 }
 
-multiply(5, 10);
+alert(multiply(5, 10));
