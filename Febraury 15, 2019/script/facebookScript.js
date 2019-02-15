@@ -31,14 +31,21 @@ var newsfeed = [
 var usernamePrompt = prompt("What is your username?");
 var passwordPrompt = prompt("What is your password?");
 
-function signIn(user, pass) {
+function isUserValid(user, pass) {
 	for (var i = 0; i < database.length; i++) {
 		if (database[i].username === user && 
 			database[i].password === pass) {
-			console.log(newsfeed);
-		} else {
-	        alert("Sorry, wrong username and password");
+			return true;
 		}
+	}
+	return false;
+}
+
+function signIn(user, pass) {
+	if (isUserValid(user, pass)) {
+		console.log(newsfeed);
+	} else {
+		alert("Sorry, wrong username and password.");
 	}
 }
 
