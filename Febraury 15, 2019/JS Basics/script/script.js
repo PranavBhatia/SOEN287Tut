@@ -1,7 +1,7 @@
 // Arrays =>
 // var listOfAnimals = ["tiger", "cat", "bear", "bird"];
 // console.log(listOfAnimals[0]); 
-// // clear(), push("xyz"), pop(), concat(), sort()
+// // shift(), push("xyz"), pop(), concat(), sort()
 
 // var listOfAnimals = [["tiger", "cat", "bear", "bird"]];
 // console.log(listOfAnimals[0]);
