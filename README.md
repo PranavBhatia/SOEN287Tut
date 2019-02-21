@@ -27,5 +27,5 @@
   2. [Javascript Char Codes (Key Codes)](https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes)
 
 ### jQuery:
-  1.[jQuery vs Javascript](http://youmightnotneedjquery.com/)
+  1. [jQuery vs Javascript](http://youmightnotneedjquery.com/)
   
