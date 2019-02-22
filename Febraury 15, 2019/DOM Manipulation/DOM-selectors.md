@@ -10,7 +10,7 @@ querySelectorAll
 getAttribute
 setAttribute
 
-##Changing Styles
+## Changing Styles
 style.{property} //ok
 
 className //best
@@ -20,10 +20,10 @@ classList.add
 classList.remove
 classList.toggle
 
-##Bonus
+## Bonus
 innerHTML //DANGEROUS
 
 parentElement
 children
 
-##It is important to CACHE selectors in variables
+## It is important to CACHE selectors in variables
