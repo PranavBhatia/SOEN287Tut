@@ -4,6 +4,6 @@ var ul = document.querySelector("ul");
 
 button.addEventListener("click", function() {
     var li = document.createElement("li");
-    li.appendChild(document.createTextNode("Testing"));
+    li.appendChild(document.createTextNode(input.value));
     ul.appendChild(li);
 })
