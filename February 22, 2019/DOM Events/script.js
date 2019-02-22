@@ -1,13 +1,6 @@
-var button = document.getElementsByTagName("button")[0];
+var button = document.getElementById("enter");
+var input = document.getElementById("userInput");
 
 button.addEventListener("click", function() {
-    console.log("CLICK!");
-})
-
-button.addEventListener("mouseenter", function() {
-    console.log("MOUSE ENTER!");
-})
-
-button.addEventListener("mouseleave", function() {
-    console.log("MOUSE LEAVE!");
+    console.log("click is working");
 })
