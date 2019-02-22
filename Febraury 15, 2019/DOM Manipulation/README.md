@@ -1,32 +1,29 @@
 DOM Selectors
 --------------
-getElementsByTagName
-getElementsByClassName
+getElementsByTagName  
+getElementsByClassName  
+getElementById  
 
-getElementById
+querySelector  
+querySelectorAll  
 
-querySelector
-
-querySelectorAll
-
-getAttribute
-
-setAttribute
+getAttribute   
+setAttribute  
 
 ## Changing Styles
-style.{property} //ok
+style.{property} //ok  
 
-className //best
-classList //best
+className //best  
+classList //best  
 
-classList.add
-classList.remove
-classList.toggle
+classList.add  
+classList.remove  
+classList.toggle  
 
 ## Bonus
-innerHTML //DANGEROUS
+innerHTML //DANGEROUS  
 
-parentElement
-children
+parentElement  
+children  
 
 ## It is important to CACHE selectors in variables
