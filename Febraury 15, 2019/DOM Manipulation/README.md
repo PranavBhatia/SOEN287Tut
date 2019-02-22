@@ -1,7 +1,6 @@
 DOM Selectors
 --------------
 getElementsByTagName
-
 getElementsByClassName
 
 getElementById
