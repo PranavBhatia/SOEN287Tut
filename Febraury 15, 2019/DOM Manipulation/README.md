@@ -1,13 +1,17 @@
 DOM Selectors
 --------------
 getElementsByTagName
+
 getElementsByClassName
+
 getElementById
 
 querySelector
+
 querySelectorAll
 
 getAttribute
+
 setAttribute
 
 ## Changing Styles
