@@ -21,8 +21,8 @@ function funniestFunction() {
     console.log(3, fun);
 }
 
-console.log("window", 1, fun);
+console.log("Window", 1, fun);
 funFunction();
 funnierFunction();
 funniestFunction();
-console.log("window", 2, fun);
+console.log("Window", 2, fun);
