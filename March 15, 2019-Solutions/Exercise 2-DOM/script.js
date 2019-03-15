@@ -22,16 +22,12 @@ function display_random_image() {
     }
 
     // create random image number
-    function getRandomInt(min, max) {
-        //  return Math.floor(Math.random() * (max - min + 1)) + min;
-
-        imn = Math.floor(Math.random() * (max - min + 1)) + min;
+    function getRandomInt(max) {
+        imn = Math.floor(Math.random() * max);
         return preBuffer[imn];
     }
 
-    // 0 is first image,   preBuffer.length - 1) is  last image
-
-    var newImage = getRandomInt(0, preBuffer.length - 1);
+    var newImage = getRandomInt(3);
 
     // remove the previous images
     var images = document.getElementsByTagName('img');
